@@ -1,0 +1,45 @@
+.nav-search {}
+
+.nav-search-input {
+    border-radius: 50px;
+    /* border: 0; */
+    border: 5px slateblue;
+
+}
+
+.search-food-btn {
+    background-color: rgb(245, 81, 109);
+    border-radius: 50px !important;
+}
+
+/* start */
+.search-box {
+    position: relative;
+
+}
+
+.search-box input {
+    width: 300px;
+    height: 40px;
+    border: 1px solid rgb(206, 200, 200);
+    outline: none;
+    background: #f2f2f2;
+    border-radius: 30px;
+    color: gray;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+.search-box button {
+    cursor: pointer;
+    width: 90px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: scale(0.9);
+    background-color: #F91944;
+    color: #fff;
+}
