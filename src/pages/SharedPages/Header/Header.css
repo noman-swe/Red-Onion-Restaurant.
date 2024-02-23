@@ -1,0 +1,15 @@
+.header-navbar {
+    background-color: #fff !important;
+}
+
+.nav-links-container a {
+    color: #000;
+    margin-right: 18px;
+    font-size: 15px;
+}
+
+.sign-up {
+    background-color: rgb(245, 81, 109);
+    border-radius: 50px;
+
+}
