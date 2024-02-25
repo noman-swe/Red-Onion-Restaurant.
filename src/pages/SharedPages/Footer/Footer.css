@@ -1,0 +1,27 @@
+.footer-items a {
+    font-size: 14px;
+    color: #fff;
+}
+.footer-items a:hover {
+    color: #5f5e5e;
+}
+
+.bg-deep-dark {
+    background-color: #000;
+}
+
+.copyright-text {
+    font-size: 14px;
+    color: #4e4d4d;
+}
+
+.footer-nav a {
+    color: #fff;
+    font-size: 14px;
+    margin-right: 30px;
+    
+}
+
+.footer-nav a:hover {
+    color: #999696;
+}
