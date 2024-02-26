@@ -1,0 +1,41 @@
+.meals-card-container:hover {
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.71);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.71);
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.71);
+    transition: 500ms;
+}
+
+.meals-cart {
+    height: 480px;
+}
+
+.custom-border-style {
+    border-radius: 20px;
+}
+
+.meal-btn-add-cart {
+    border-radius: 0px 0px 20px 20px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid lightgray;
+}
+
+.meal-btn-add-cart:hover {
+    background-color: #F91944;
+    color: #fff;
+}
+
+.meal-btn-add-cart:focus {
+    background-color: #F91944;
+}
+
+.btn-checkout {
+    background-color: gray;
+    border-radius: 8px;
+    padding: 8px 24px;
+    color: #fff;
+}
+
+.btn-checkout:hover {
+    background-color: #F91944;
+}

@@ -13,31 +13,27 @@ const useMealFilter = () => {
     const lunchMeals = meals.filter(lunch => lunch.type === 'lunch');
     const dinnerMeals = meals.filter(dinner => dinner.type === 'dinner');
 
-
     const handleMenuTabs = (type) => {
         if (type === 'breakfast') {
-            setMyMeals(breakfastMeals);
             setActiveMealBreakfast(true);
             setActiveMealLunch(false);
             setActiveMealDinner(false);
         }
 
         if (type === 'lunch') {
-            setMyMeals(lunchMeals);
             setActiveMealLunch(true);
             setActiveMealBreakfast(false);
             setActiveMealDinner(false);
         }
 
         if (type === 'dinner') {
-            setMyMeals(dinnerMeals);
             setActiveMealDinner(true);
             setActiveMealLunch(false);
             setActiveMealBreakfast(false);
         }
         setShowDefault(false);
     }
-    return ([breakfastMeals, lunchMeals, dinnerMeals, activeMealBreakfst, activeMealLunch, activeMealDinner, myMeals, showDefault, handleMenuTabs]);
+    return ([breakfastMeals, lunchMeals, dinnerMeals, activeMealBreakfst, activeMealLunch, activeMealDinner, showDefault, handleMenuTabs]);
 };
 
 export default useMealFilter;

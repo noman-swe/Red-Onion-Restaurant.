@@ -6,7 +6,7 @@ import Meal from '../Meal/Meal';
 
 const Meals = () => {
     const [meals] = useFetchMeals();
-    const [breakfastMeals, lunchMeals, dinnerMeals, activeMealBreakfst, activeMealLunch, activeMealDinner, showDefault, handleMenuTabs] = useMealFilter();
+    const [breakfastMeals, lunchMeals, dinnerMeals, activeMealBreakfst, activeMealLunch, activeMealDinner,  showDefault, handleMenuTabs] = useMealFilter();
 
 
     return (
