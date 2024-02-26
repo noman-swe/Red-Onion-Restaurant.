@@ -1,9 +1,11 @@
-.meals-card:hover {
+.meals-card-container:hover {
     -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.71);
     -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.71);
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.71);
     transition: 500ms;
-
+}
+.meals-cart{
+    height: 480px;
 }
 
 .custom-border-style {

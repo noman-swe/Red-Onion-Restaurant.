@@ -1,45 +1,13 @@
-import React, { useState } from 'react';
-import Food from '../Food/Food';
+import React from 'react';
 import useFetchMeals from '../../../hooks/useFetchMeals';
-import Nav from 'react-bootstrap/Nav';
-import './Foods.css';
-import { CardGroup } from 'react-bootstrap';
+import useMealFilter from '../../../hooks/useMealFilter';
+import { CardGroup, Nav } from 'react-bootstrap';
+import Meal from '../Meal/Meal';
 
-const Foods = () => {
-    const [activeMealBreakfst, setActiveMealBreakfast] = useState(false);
-    const [activeMealLunch, setActiveMealLunch] = useState(false);
-    const [activeMealDinner, setActiveMealDinner] = useState(false);
-    const [myMeals, setMyMeals] = useState([]);
+const Meals = () => {
     const [meals] = useFetchMeals();
-    const [showDefault, setShowDefault] = useState(true);
+    const [breakfastMeals, lunchMeals, dinnerMeals, activeMealBreakfst, activeMealLunch, activeMealDinner, showDefault, handleMenuTabs] = useMealFilter();
 
-    let breakfastMeals = meals.filter(breakfast => breakfast.type === 'breakfast');
-    let lunchMeals = meals.filter(lunch => lunch.type === 'lunch');
-    let dinnerMeals = meals.filter(dinner => dinner.type === 'dinner');
-
-    const handleMenuTabs = (type) => {
-        if (type === 'breakfast') {
-            setMyMeals(breakfastMeals);
-            setActiveMealBreakfast(true);
-            setActiveMealLunch(false);
-            setActiveMealDinner(false);
-        }
-
-        if (type === 'lunch') {
-            setMyMeals(lunchMeals);
-            setActiveMealLunch(true);
-            setActiveMealBreakfast(false);
-            setActiveMealDinner(false);
-        }
-
-        if (type === 'dinner') {
-            setMyMeals(dinnerMeals);
-            setActiveMealDinner(true);
-            setActiveMealLunch(false);
-            setActiveMealBreakfast(false);
-        }
-        setShowDefault(false);
-    }
 
     return (
         <div className='d-flex justify-content-center gap-5 my-4'>
@@ -70,35 +38,35 @@ const Foods = () => {
 
                         <div className={`breakfast mt-5 ${activeMealBreakfst ? 'd-show' : 'd-none'}`} >
                             {
-                                myMeals.map(myMeal => <Food
+                                breakfastMeals.map(myMeal => <Meal
                                     key={myMeal._id}
                                     myMeal={myMeal}>
-                                </Food>)
+                                </Meal>)
                             }
                         </div>
                         <div className={`lunch mt-5 ${activeMealLunch ? 'd-show' : 'd-none'}`} >
                             {
-                                myMeals.map(myMeal => <Food
+                                lunchMeals.map(myMeal => <Meal
                                     key={myMeal._id}
                                     myMeal={myMeal}>
-                                </Food>)
+                                </Meal>)
                             }
                         </div>
                         <div className={`dinner mt-5 ${activeMealDinner ? 'd-show' : 'd-none'}`} >
                             {
-                                myMeals.map(myMeal => <Food
+                                dinnerMeals.map(myMeal => <Meal
                                     key={myMeal._id}
                                     myMeal={myMeal}>
-                                </Food>)
+                                </Meal>)
                             }
                         </div>
 
                         <div className={`default-meal mt-4 ${showDefault ? 'd-show' : 'd-none'}`} >
                             {
-                                breakfastMeals.map(myMeal => <Food
+                                breakfastMeals.map(myMeal => <Meal
                                     key={myMeal._id}
                                     myMeal={myMeal}>
-                                </Food>)
+                                </Meal>)
                             }
 
                         </div>
@@ -113,4 +81,4 @@ const Foods = () => {
     );
 };
 
-export default Foods;
+export default Meals;

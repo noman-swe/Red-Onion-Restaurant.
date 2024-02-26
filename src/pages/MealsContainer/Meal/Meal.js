@@ -1,8 +1,7 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
-import './Food.css';
 
-const Food = ({ myMeal }) => {
+const Meal = ({ myMeal }) => {
     const { picture, name, type, description } = myMeal;
 
     const handleMealsDetails = () => {
@@ -12,7 +11,6 @@ const Food = ({ myMeal }) => {
     const handleAddToCart = () => {
         alert('carted');
     }
-    
     return (
         < div className='meals-card-container custom-border-style position-relative' onClick={handleMealsDetails} >
             <Card className='border-0 pt-3 custom-border-style mb-0 meals-cart' >
@@ -25,9 +23,7 @@ const Food = ({ myMeal }) => {
             </Card>
             <button onClick={handleAddToCart} className='w-100 border-0 py-2 meal-btn-add-cart position-absolute bottom-0' >Add To Cart</button>
         </div>
-
-
     );
 };
 
-export default Food;
+export default Meal;
