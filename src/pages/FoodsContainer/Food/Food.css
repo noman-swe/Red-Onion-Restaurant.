@@ -1,16 +1,17 @@
-.meals-card-container:hover {
+.single-meal:hover {
     -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.71);
     -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.71);
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.71);
     transition: 500ms;
 }
-.meals-cart{
+
+.meals-cart {
     height: 480px;
 }
 
-.custom-border-style {
+/* .custom-border-style {
     border-radius: 20px;
-}
+} */
 
 .meal-btn-add-cart {
     border-radius: 0px 0px 20px 20px;

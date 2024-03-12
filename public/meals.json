@@ -3,126 +3,168 @@
         "_id": "65d8ceefbce54fd707530964",
         "picture": "https://i.ibb.co/rtFyc8x/breakfast3.png",
         "name": "Suzette",
+        "price": 152,
         "type": "breakfast",
-        "description": "Fugiat aliqua non quis exercitation non fugiat tempor excepteur consectetur officia culpa labore reprehenderit magna."
+        "description": "Fugiat aliqua non quis exercitation non fugiat tempor excepteur consectetur officia culpa labore reprehenderit magna.By creating a context object, defining a provider component, and consuming the context in other components, you can share data across your application in a simple and efficient way."
+    },
+    {
+        "_id": "65d8ceefa9c8595950xxdf89",
+        "picture": "https://i.ibb.co/hHvQ7P8/breakfast5.png",
+        "name": "Lunch Desert",
+        "price": 0,
+        "type": "lunch",
+        "description": "Lunch e Desert Khabo Excepteur incididunt incididunt dolor ut officia dolore ut cillum deserunt cillum ut.By creating a context object, defining a provider component, and consuming the context in other components, you can share data across your application in a simple and efficient way."
+    },
+    {
+        "_id": "65d8ceefa9c8595950ccdf89",
+        "picture": "https://i.ibb.co/Pzm8PQp/breakfast6.png",
+        "name": "Hen Rice",
+        "price": 152,
+        "type": "dinner",
+        "description": "Dinner Khabo Excepteur incididunt incididunt dolor ut officia dolore ut cillum deserunt cillum ut.By creating a context object, defining a provider component, and consuming the context in other components, you can share data across your application in a simple and efficient way."
     },
     {
         "_id": "65d8ceefba3d37dae650ec8f",
         "picture": "https://i.ibb.co/D5YkNrS/breakfast4.png",
         "name": "Mccall",
+        "price": 152,
         "type": "breakfast",
-        "description": "Cupidatat deserunt anim quis mollit qui dolore mollit do esse ex."
+        "description": "Cupidatat deserunt anim quis mollit qui dolore mollit do esse ex.By creating a context object, defining a provider component, and consuming the context in other components, you can share data across your application in a simple and efficient way."
     },
     {
         "_id": "65d8ceefb92779d5aa28639e",
         "picture": "https://i.ibb.co/7JF461p/breakfast5.png",
         "name": "Dickerson",
+        "price": 152,
         "type": "breakfast",
-        "description": "Velit laborum dolor sint consectetur ea ad ipsum proident minim commodo deserunt adipisicing culpa magna."
+        "description": "Velit laborum dolor sint consectetur ea ad ipsum proident minim commodo deserunt adipisicing culpa magna.hecksBy creating a context object, defining a provider component, and consuming the context in other components, you can share data across your application in a simple and efficient way."
     },
     {
         "_id": "65d8ceef1a8846370d6f3b84",
         "picture": "https://i.ibb.co/Pzm8PQp/breakfast6.png",
         "name": "Noreen",
+        "price": 152,
         "type": "breakfast",
-        "description": "Mollit id aute est magna fugiat proident commodo eiusmod ut qui consequat reprehenderit."
+        "description": "Mollit id aute est magna fugiat proident commodo eiusmod ut qui consequat reprehenderit.By creating a context object, defining a provider component, and consuming the context in other components, you can share data across your application in a simple and efficient way."
     },
     {
         "_id": "65d8ceef2d9b5db53db30380",
         "picture": "https://i.ibb.co/MfvPpNL/dinner1.png",
         "name": "Carissa",
+        "price": 152,
         "type": "breakfast",
-        "description": "Ex officia magna magna elit et."
+        "description": "Ex officia magna magna elit et.By creating a context object, defining a provider component, and consuming the context in other components, you can share data across your application in a simple and efficient way."
     },
     {
         "_id": "65d8ceefaca049db6136beaf",
         "picture": "https://i.ibb.co/cxmr2bV/lunch6.png",
         "name": "Carpenter",
+        "price": 152,
         "type": "breakfast",
-        "description": "Tempor excepteur ullamco aliqua dolore fugiat amet occaecat duis."
+        "description": "Tempor excepteur ullamco aliqua dolore fugiat amet occaecat duis.By creating a context object, defining a provider component, and consuming the context in other components, you can share data across your application in a simple and efficient way."
     },
     {
         "_id": "65d8ceefd78723b34c2e2800",
         "picture": "https://i.ibb.co/MfvPpNL/dinner1.png",
         "name": "Robbie",
+        "price": 152,
         "type": "dinner",
-        "description": "Veniam sunt dolore aliqua magna dolore anim nulla incididunt elit adipisicing culpa cupidatat quis esse."
+        "description": "Veniam sunt dolore aliqua magna dolore anim nulla incididunt elit adipisicing culpa cupidatat quis esse.By creating a context object, defining a provider component, and consuming the context in other components, you can share data across your application in a simple and efficient way."
     },
     {
         "_id": "65d8ceef53bc7760f04a1b7a",
         "picture": "https://i.ibb.co/HGCQxMb/dinner2.png",
         "name": "Snow",
+        "price": 152,
         "type": "dinner",
-        "description": "Esse duis et aute enim aliqua nulla exercitation amet nulla."
+        "description": "Esse duis et aute enim aliqua nulla exercitation amet nulla.By creating a context object, defining a provider component, and consuming the context in other components, you can share data across your application in a simple and efficient way."
     },
     {
         "_id": "65d8ceeff76dae4b90b8f396",
         "picture": "https://i.ibb.co/0GRjzjt/dinner3.png",
         "name": "Turner",
+        "price": 152,
         "type": "dinner",
-        "description": "Reprehenderit duis magna aliqua ipsum excepteur occaecat duis."
+        "description": "Reprehenderit duis magna aliqua ipsum excepteur occaecat duis.By creating a context object, defining a provider component, and consuming the context in other components, you can share data across your application in a simple and efficient way."
     },
     {
         "_id": "65d8ceef6803bf97f50ce383",
         "picture": "https://i.ibb.co/qDFZZ0r/dinner4.png",
         "name": "Martinez",
+        "price": 152,
         "type": "dinner",
-        "description": "Aliqua consectetur ex eiusmod do nisi dolore consectetur enim commodo in enim."
+        "description": "Aliqua consectetur ex eiusmod do nisi dolore consectetur enim commodo in enim.By creating a context object, defining a provider component, and consuming the context in other components, you can share data across your application in a simple and efficient way."
     },
     {
         "_id": "65d8ceefb2f82044d920b76b",
         "picture": "https://i.ibb.co/kDW7tcG/dinner5.png",
         "name": "Moody",
+        "price": 152,
         "type": "dinner",
-        "description": "Consequat cillum id nulla ad esse in sunt reprehenderit et nulla."
+        "description": "Consequat cillum id nulla ad esse in sunt reprehenderit et nulla.By creating a context object, defining a provider component, and consuming the context in other components, you can share data across your application in a simple and efficient way."
     },
     {
         "_id": "65d8ceefa39fc0c3b4307ef4",
         "picture": "https://i.ibb.co/Cs1LHhF/dinner6.png",
         "name": "Silva",
+        "price": 152,
         "type": "lunch",
-        "description": "Reprehenderit voluptate deserunt consequat minim laboris sunt in ut ipsum irure ut nostrud."
+        "description": "Reprehenderit voluptate deserunt consequat minim laboris sunt in ut ipsum irure ut nostrud.By creating a context object, defining a provider component, and consuming the context in other components, you can share data across your application in a simple and efficient way."
     },
     {
         "_id": "65d8ceef9692c48fa20f40a5",
         "picture": "https://i.ibb.co/cxmr2bV/lunch6.png",
         "name": "Audrey",
+        "price": 152,
         "type": "lunch",
-        "description": "Ut sit esse in tempor sint non ad."
+        "description": "Ut sit esse in tempor sint non ad.By creating a context object, defining a provider component, and consuming the context in other components, you can share data across your application in a simple and efficient way."
     },
     {
         "_id": "65d8ceefa3c167bf8bd69e63",
         "picture": "https://i.ibb.co/cT2hsKd/lunch5.png",
         "name": "Fried Rice",
+        "price": 152,
         "type": "dinner",
-        "description": "Voluptate amet laborum cillum excepteur laborum mollit."
+        "description": "Voluptate amet laborum cillum excepteur laborum mollit.By creating a context object, defining a provider component, and consuming the context in other components, you can share data across your application in a simple and efficient way."
     },
     {
         "_id": "65d8ceef49e95b6a6fab9eda",
         "picture": "https://i.ibb.co/yyC1W5x/lunch4.png",
         "name": "Hart",
+        "price": 152,
         "type": "lunch",
-        "description": "Enim veniam do eu ullamco culpa ex."
+        "description": "Enim veniam do eu ullamco culpa ex.By creating a context object, defining a provider component, and consuming the context in other components, you can share data across your application in a simple and efficient way."
     },
     {
         "_id": "65d8ceef0c170a31e995fb79",
         "picture": "https://i.ibb.co/hdY9J0K/lunch3.png",
         "name": "Holt",
+        "price": 152,
         "type": "lunch",
-        "description": "Enim Lorem consequat ea esse minim."
+        "description": "Enim Lorem consequat ea esse minim.By creating a context object, defining a provider component, and consuming the context in other components, you can share data across your application in a simple and efficient way."
     },
     {
         "_id": "65d8ceefa3b287d1812052c7",
         "picture": "https://i.ibb.co/6N8MLtn/lunch2.png",
         "name": "Verna",
+        "price": 152,
         "type": "lunch",
-        "description": "Irure reprehenderit tempor sint Lorem."
+        "description": "Irure reprehenderit tempor sint Lorem.By creating a context object, defining a provider component, and consuming the context in other components, you can share data across your application in a simple and efficient way."
     },
     {
         "_id": "65d8ceefa9c8595950bbdf89",
         "picture": "https://i.ibb.co/hHvQ7P8/lunch1.png",
         "name": "Henrietta",
+        "price": 152,
         "type": "lunch",
-        "description": "Excepteur incididunt incididunt dolor ut officia dolore ut cillum deserunt cillum ut."
+        "description": "Excepteur incididunt incididunt dolor ut officia dolore ut cillum deserunt cillum ut.By creating a context object, defining a provider component, and consuming the context in other components, you can share data across your application in a simple and efficient way."
+    },
+    {
+        "_id": "65d8ceefa9c8595950bbdc49",
+        "picture": "https://i.ibb.co/D5YkNrS/breakfast4.png",
+        "name": "Hen Curry",
+        "price": 20,
+        "type": "lunch",
+        "description": "Lunch Spanish - Excepteur incididunt incididunt dolor ut officia dolore ut cillum deserunt cillum ut.By creating a context object, defining a provider component, and consuming the context in other components, you can share data across your application in a simple and efficient way."
     }
 ]

@@ -9,7 +9,7 @@ const Header = () => {
 
     return (
         <div className='header'>
-            <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary header-navbar">
+            <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary header-navbar ">
                 <Container>
                     <Navbar.Brand href="#home">
                         <img height={35} src={logo} alt="" />

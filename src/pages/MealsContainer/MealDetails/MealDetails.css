@@ -1,0 +1,59 @@
+.details-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.details-container>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.details-title {
+    font-size: 44px;
+    margin-top: 80px;
+}
+
+#phone-number {
+    width: 40px;
+}
+
+.quantity {
+    border: 1px solid rgb(206, 204, 204);
+    padding: 0px 20px;
+    border-radius: 50px;
+}
+
+.quantity input {
+    width: 33px !important;
+    border: 0px;
+}
+
+.font-sixten {
+    font-size: 16px;
+}
+
+.font-sixten:hover {
+    color: #F91944;
+    transition-duration: 600ms;
+}
+
+
+.font-sixten {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+@media only screen and (min-width:77px) and (max-width:767px) {
+    .details-title {
+        margin-top: 20px;
+    }
+
+}
