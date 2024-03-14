@@ -1,0 +1,10 @@
+.btn-add-cart {
+    background-color: #ffecf0;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.btn-add-cart:hover {
+    background-color: #F91944;
+    color: #fff;
+    transition: 800ms;
+}

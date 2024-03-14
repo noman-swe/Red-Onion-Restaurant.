@@ -27,3 +27,18 @@
     background-color: #F91944;
     color: #fff;
 }
+
+.dropdown {
+    border: 1px solid gray;
+    padding: 0 10px;
+}
+
+.dropdown:empty {
+    border: none;
+}
+
+.dropdown-row {
+    cursor: pointer;
+    text-align: start;
+    margin: 2px 0;
+}

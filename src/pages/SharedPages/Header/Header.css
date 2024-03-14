@@ -12,3 +12,7 @@
     background-color: #F91944;
     border-radius: 50px;
 }
+
+.logout-btn {
+    cursor: pointer;
+}

@@ -1,30 +1,43 @@
 const addToDb = id => {
-    const cartObj = getStoredCart();
+    const shoppingCart = getStoredCart();
 
-    const qunatity = cartObj[id];
+    const qunatity = shoppingCart[id];
     if (qunatity) {
         const newQuantity = qunatity + 1;
-        cartObj[id] = newQuantity;
+        shoppingCart[id] = newQuantity;
     }
     else {
-        cartObj[id] = 1;
-        localStorage.setItem('red-onion', JSON.stringify(cartObj));
+        shoppingCart[id] = 1;
     }
+    localStorage.setItem('red-onion', JSON.stringify(shoppingCart));
+}
 
+const removeFromDb = id => {
+    const shoppingCart = getStoredCart();
+    if (id in shoppingCart) {
+        delete shoppingCart[id];
+        localStorage.setItem('red-onion', JSON.stringify(shoppingCart));
+    }
 }
 
 const getStoredCart = () => {
-    let cartObj = {};
+    let shoppingCart = {};
     const storedCart = localStorage.getItem('red-onion');
     if (storedCart) {
-        cartObj = JSON.parse(cartObj);
+        shoppingCart = JSON.parse(storedCart);
     } else {
-        cartObj = {}
+        shoppingCart = {}
     }
-    return cartObj;
+    return shoppingCart;
+}
+
+const deleteShoppingCart = () => {
+    localStorage.removeItem('red-onion');
 }
 
 export {
     addToDb,
+    removeFromDb,
+    deleteShoppingCart,
     getStoredCart
 }

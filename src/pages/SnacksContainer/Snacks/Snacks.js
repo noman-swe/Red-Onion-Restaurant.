@@ -11,7 +11,6 @@ const Snacks = () => {
         const newFilterMeals = meals.filter(filterMeal => filterMeal.type === mealType);
         setMeals(newFilterMeals);
     }
-
     return (
         <div className='container'>
             <div className="row">
